@@ -1,0 +1,37 @@
+﻿{
+  "Metadata": {
+    "Id": "a4638aa0-6f9d-478d-b17d-f03ff99ce66c",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "작업요청",
+    "Width": 400,
+    "Height": 300,
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "PIP 실행 안내",
+        "tableView": true,
+        "defaultValue": "작업은 PIP 데스크탑 혹은 PIP 세션에서 진행 됩니다.\n결과는 다시 알려드립니다. ",
+        "key": "text_content",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "작업요청",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

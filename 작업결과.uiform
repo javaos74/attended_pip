@@ -1,0 +1,36 @@
+﻿{
+  "Metadata": {
+    "Id": "6aee39c9-c3d8-4416-8fb9-3fba9dba72df",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "작업결과",
+    "Width": 400,
+    "Height": 400,
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "작업 결과 ",
+        "tableView": true,
+        "key": "result_message",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "확인",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "saveOnEnter": false,
+        "input": true
+      }
+    ]
+  }
+}
