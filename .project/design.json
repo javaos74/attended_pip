@@ -1,5 +1,9 @@
 {
-  "Tags": [],
+  "Tags": [
+    {
+      "Key": "Shinhan"
+    }
+  ],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
 }

@@ -5,7 +5,7 @@
   },
   "DesignProperties": {
     "Title": "작업결과",
-    "Width": 400,
+    "Width": 600,
     "Height": 400,
     "Theme": "Default",
     "ShowInTaskbar": true,
